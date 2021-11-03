@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group android:checkableBehavior="none">
+        <item
+            android:id="@+id/notes_navigation_Tphoto"
+            android:icon="@drawable/ic_baseline_add_a_photo_24"
+            android:title="@string/notes_navigation_photo" />
+        <item
+            android:id="@+id/notes_navigation_Tvideo"
+            android:icon="@drawable/ic_baseline_video_call_24"
+            android:title="@string/notes_navigation_Tvideo" />
+        <item
+            android:id="@+id/notes_navigation_record"
+            android:icon="@drawable/ic_baseline_mic_24"
+            android:title="@string/notes_navigation_record" />
+    </group>
+</menu>
